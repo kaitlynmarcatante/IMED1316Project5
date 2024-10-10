@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 251, 251);
+}
+
+    h1 {
+        color: rgb(23, 23, 95);
+        margin: auto;
+      }
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 20px
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: #008890;
+}
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color:rgba(0, 136, 169, 1) ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button:hover{
+    background-color:rgba(0, 136, 169, 0.8) ;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container > div > img {
+    height: 350px;
+    width: 280px;
+
+}
+
+.textbox {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    gap: 30px; }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(30, 143, 255, 0.18);
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      
+      .flex-container > div {
+        background-color: #bfbfbf;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      #tabs {
+        margin-left: 30%;
+        margin-right: 30%;
+        background-color: #00899072;
+        margin-bottom: 5%;
+      }
+
+ 
